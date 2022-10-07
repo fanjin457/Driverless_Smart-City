@@ -1,0 +1,3 @@
+0:[default]
+1:background
+2:grass

@@ -1,0 +1,257 @@
+################################  args  ################################
+inverse_depth	False                         	<class 'bool'>      
+return_depth	True                          	<class 'bool'>      
+max_h     	500                           	<class 'int'>       
+max_w     	800                           	<class 'int'>       
+image_scale	1.0                           	<class 'float'>     
+light_idx 	3                             	<class 'int'>       
+view_num  	7                             	<class 'int'>       
+dataset   	data_eval_transform           	<class 'str'>       
+testpath  	/public/home/achrbqpmd9/datasets/xinhaoshan/	<class 'str'>       
+testlist  	lists/zg_pf/test.txt          	<class 'str'>       
+batch_size	1                             	<class 'int'>       
+numdepth  	512                           	<class 'int'>       
+interval_scale	0.4                           	<class 'float'>     
+loadckpt  	./checkpoints/pretrained/model_release.ckpt	<class 'str'>       
+outdir    	./outputs_xinhaoshan          	<class 'str'>       
+########################################################################
+save depth *******************
+
+dataset test metas: 46
+Data Loader : data_eval_transform **************
+Training Phase in UNetConvLSTM: 500, 800
+loading model ./checkpoints/pretrained/model_release.ckpt
+state dict
+No module in keys
+Start loop...
+process ['scan1/{}/00000000{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  91.67243480682373
+avg time: 1.8334486961364747
+Iter 0/46
+(500, 800)
+process ['scan1/{}/00000001{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  59.54913640022278
+Iter 1/46
+(500, 800)
+process ['scan1/{}/00000002{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.262051820755005
+Iter 2/46
+(500, 800)
+process ['scan1/{}/00000003{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.34371471405029
+Iter 3/46
+(500, 800)
+process ['scan1/{}/00000004{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.73067235946655
+Iter 4/46
+(500, 800)
+process ['scan1/{}/00000005{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.65057826042175
+Iter 5/46
+(500, 800)
+process ['scan1/{}/00000006{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.57802748680115
+Iter 6/46
+(500, 800)
+process ['scan1/{}/00000007{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.44687366485596
+Iter 7/46
+(500, 800)
+process ['scan1/{}/00000008{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  61.09512901306152
+Iter 8/46
+(500, 800)
+process ['scan1/{}/00000009{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.87246012687683
+Iter 9/46
+(500, 800)
+process ['scan1/{}/00000010{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.91320252418518
+Iter 10/46
+(500, 800)
+process ['scan1/{}/00000011{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.44023609161377
+Iter 11/46
+(500, 800)
+process ['scan1/{}/00000012{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  61.0140438079834
+Iter 12/46
+(500, 800)
+process ['scan1/{}/00000013{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.81771636009216
+Iter 13/46
+(500, 800)
+process ['scan1/{}/00000014{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.829456090927124
+Iter 14/46
+(500, 800)
+process ['scan1/{}/00000015{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.15637135505676
+Iter 15/46
+(500, 800)
+process ['scan1/{}/00000016{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.43419337272644
+Iter 16/46
+(500, 800)
+process ['scan1/{}/00000017{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.59137034416199
+Iter 17/46
+(500, 800)
+process ['scan1/{}/00000018{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.29062056541443
+Iter 18/46
+(500, 800)
+process ['scan1/{}/00000019{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.46369504928589
+Iter 19/46
+(500, 800)
+process ['scan1/{}/00000020{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.67235255241394
+Iter 20/46
+(500, 800)
+process ['scan1/{}/00000021{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.435608863830566
+Iter 21/46
+(500, 800)
+process ['scan1/{}/00000022{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.78977084159851
+Iter 22/46
+(500, 800)
+process ['scan1/{}/00000023{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.79930114746094
+Iter 23/46
+(500, 800)
+process ['scan1/{}/00000024{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.64227843284607
+Iter 24/46
+(500, 800)
+process ['scan1/{}/00000025{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.61003232002258
+Iter 25/46
+(500, 800)
+process ['scan1/{}/00000026{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.498648166656494
+Iter 26/46
+(500, 800)
+process ['scan1/{}/00000027{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.24294066429138
+Iter 27/46
+(500, 800)
+process ['scan1/{}/00000028{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  59.999009132385254
+Iter 28/46
+(500, 800)
+process ['scan1/{}/00000029{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.08696007728577
+Iter 29/46
+(500, 800)
+process ['scan1/{}/00000030{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.39423084259033
+Iter 30/46
+(500, 800)
+process ['scan1/{}/00000031{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.42362022399902
+Iter 31/46
+(500, 800)
+process ['scan1/{}/00000032{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  61.04804253578186
+Iter 32/46
+(500, 800)
+process ['scan1/{}/00000033{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.291614055633545
+Iter 33/46
+(500, 800)
+process ['scan1/{}/00000034{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.692440032958984
+Iter 34/46
+(500, 800)
+process ['scan1/{}/00000035{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.622379541397095
+Iter 35/46
+(500, 800)
+process ['scan1/{}/00000036{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.39820384979248
+Iter 36/46
+(500, 800)
+process ['scan1/{}/00000037{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.69885969161987
+Iter 37/46
+(500, 800)
+process ['scan1/{}/00000038{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.46649432182312
+Iter 38/46
+(500, 800)
+process ['scan1/{}/00000039{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.88162088394165
+Iter 39/46
+(500, 800)
+process ['scan1/{}/00000040{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  61.0069477558136
+Iter 40/46
+(500, 800)
+process ['scan1/{}/00000041{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  59.97367739677429
+Iter 41/46
+(500, 800)
+process ['scan1/{}/00000042{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.37896013259888
+Iter 42/46
+(500, 800)
+process ['scan1/{}/00000043{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.19662928581238
+Iter 43/46
+(500, 800)
+process ['scan1/{}/00000044{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.24817204475403
+Iter 44/46
+(500, 800)
+process ['scan1/{}/00000045{}']
+input shape:  torch.Size([1, 10, 3, 500, 800]) torch.Size([1, 10, 4, 4]) torch.Size([1, 512])
+one forward:  60.59293293952942
+Iter 45/46
+(500, 800)
